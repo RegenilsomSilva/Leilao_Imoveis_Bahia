@@ -163,7 +163,6 @@ class DescontoImoveis:
             documento_Word.add_paragraph(f'{Encerramento_Do_Leilao.text}')
 
         # Salve o documento apenas uma vez, após o loop
-
         documento_Word.save(f'Automação_leilão{segundos}.docx')
 
 
